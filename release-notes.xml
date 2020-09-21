@@ -1,7 +1,7 @@
 <ReleaseNotes>
-<ChangeSet guid="a1966120-1e10-442b-97bc-d0441ad9f1d1">
+<ChangeSet guid="a1966120-1e10-442b-97bc-d0441ad9f1d1" version="7.8.20.921" date="2020-09-21">
 <Change type="feature">
-<![CDATA[Test]]>
+Test
 </Change>
 </ChangeSet>
 </ReleaseNotes>
