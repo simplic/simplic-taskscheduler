@@ -11,8 +11,14 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Simplic.TaskScheduler.Data.
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ENV", "ENV", "{5B74ADB6-650B-41F2-A9FC-70F9B916F6B4}"
 	ProjectSection(SolutionItems) = preProject
-		azure-pipelines.yml = azure-pipelines.yml
+		..\azure-pipelines.yml = ..\azure-pipelines.yml
+		..\documentation_config.json = ..\documentation_config.json
+		..\release-notes.xml = ..\release-notes.xml
 	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Simplic.TaskScheduler.UI", "Simplic.TaskScheduler.UI\Simplic.TaskScheduler.UI.csproj", "{0BD51A43-9CE1-4B1B-9ECE-069CA2BAD873}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Simplic.TaskScheduler.Jobs", "Simplic.TaskScheduler.Jobs\Simplic.TaskScheduler.Jobs.csproj", "{2B772580-8CCC-44D8-9AFB-DEFDFD1BE3B3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -32,6 +38,14 @@ Global
 		{F97EC76F-4721-4B8C-8890-1D07080600A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F97EC76F-4721-4B8C-8890-1D07080600A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F97EC76F-4721-4B8C-8890-1D07080600A7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0BD51A43-9CE1-4B1B-9ECE-069CA2BAD873}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0BD51A43-9CE1-4B1B-9ECE-069CA2BAD873}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0BD51A43-9CE1-4B1B-9ECE-069CA2BAD873}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0BD51A43-9CE1-4B1B-9ECE-069CA2BAD873}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2B772580-8CCC-44D8-9AFB-DEFDFD1BE3B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B772580-8CCC-44D8-9AFB-DEFDFD1BE3B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B772580-8CCC-44D8-9AFB-DEFDFD1BE3B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B772580-8CCC-44D8-9AFB-DEFDFD1BE3B3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
