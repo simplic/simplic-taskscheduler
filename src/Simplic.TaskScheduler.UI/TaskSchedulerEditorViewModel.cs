@@ -1,4 +1,5 @@
-﻿using Simplic.Localization;
+﻿using Simplic.Framework.Base;
+using Simplic.Localization;
 using Simplic.UI.MVC;
 using System;
 using System.Collections.Generic;
@@ -61,6 +62,8 @@ namespace Simplic.TaskScheduler.UI
                     Name = "Scheduler",
                     Parent = this
                 };
+
+                newScheduler.IsPrivate = !Development.InDevelopMode();
 
                 IsDirty = true;
                 schedulers.Add(newScheduler);
