@@ -42,7 +42,7 @@
                 <simplic:TextBox Grid.Row="0" Grid.Column="1" Width="450" HorizontalAlignment="Left" Text="{Binding Name, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" />
 
                 <simplic:CheckBox Grid.Row="1" Grid.Column="1" Content="{simplic:Localization Key=scheduler_is_active}" IsChecked="{Binding IsActive, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" />
-                <simplic:CheckBox Grid.Row="2" Grid.Column="1" Content="{simplic:Localization Key=scheduler_is_private}" IsChecked="{Binding IsPrivate, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" />
+                <simplic:CheckBox Grid.Row="2" Grid.Column="1" Content="{simplic:Localization Key=scheduler_is_private}" IsChecked="{Binding IsPrivate, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" IsEnabled="False" />
 
                 <Label Content="{simplic:Localization Key=scheduler_windows_server}" Grid.Row="3" />
                 <StackPanel Orientation="Horizontal" Grid.Row="3" Grid.Column="1" HorizontalAlignment="Left">
